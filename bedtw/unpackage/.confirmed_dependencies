@@ -1,0 +1,13 @@
+{
+  "index.html": {
+    "resources": [
+      "launcher/egret_loader.js",
+      "more.png",
+      "launcher/egret_require.js",
+      "resource/resource.json",
+      "launcher/game-min.js",
+      "launcher/mycode.js"
+    ],
+    "refer": []
+  }
+}

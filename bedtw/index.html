@@ -1,0 +1,130 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>北二饭堂大逃亡</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no,target-densitydpi=device-dpi"/>
+    <meta name="apple-mobile-web-app-capable" content="yes"/>
+
+    <meta name="full-screen" content="true"/>
+    <meta name="screen-orientation" content="portrait"/>
+    <meta name="x5-fullscreen" content="true"/>
+    <meta name="360-fullscreen" content="true"/>
+
+    <script src="http://libs.baidu.com/jquery/2.0.0/jquery.min.js"></script>
+    <script src="http://res.wx.qq.com/open/js/jweixin-1.0.0.js"></script>
+
+    <style>
+        body {
+            text-align: center;
+            background: #54b698;
+            padding: 0;
+            border: 0;
+            margin: 0;
+            height: 100%;
+        }
+        html {
+            -ms-touch-action: none; /* Direct all pointer events to JavaScript code. */
+            overflow: hidden;
+        }
+        div, canvas {
+            display:block;
+            position:absolute;
+            margin: 0 auto;
+            padding: 0;
+            border: 0;
+        }
+		#toolbar{
+		position:absolute;
+		left:10%;
+		width:80%;
+		bottom:10%;
+		z-index:99;
+		text-align:center;
+		display:none;
+	}
+	#toolbar img{
+		width:40%;
+	}
+	#footer {
+  		position: absolute;
+  		top: 92%;
+  		width: 100%;
+  		color: #fff;
+  		opacity: 0.9;
+  		text-align: center;
+  		font-size: 1.2em; }
+    </style>
+
+</head>
+<body>
+
+<div style="position:relative;" id="gameDiv"></div>
+<div id="toolbar">
+	<img src="more.png" onClick="clickMore();"/>
+</div>
+<div id="footer">created by华工创维俱乐部</div>
+
+<script>var document_class = "Main";</script><!--这部分内容在编译时会被替换，要修改文档类，请到工程目录下的egretProperties.json内编辑。-->
+<!--This part will be replaced during compiling, and to modify the document class, please go to the project directory and edit in the file of egretProperties. Jsonr-->
+<script src="launcher/egret_require.js"></script>
+<script src="launcher/egret_loader.js"></script>
+<script src="launcher/game-min.js"></script>
+<script src="launcher/mycode.js"></script>
+<script>
+(function (){
+    //updateShare(0);
+    })();
+    var support = [].map && document.createElement("canvas").getContext;
+    if (support) {
+        egret_h5.startGame();
+    }
+    else {
+        alert("Egret 不支持您当前的浏览器")
+    }
+</script>
+<script language=javascript>
+      
+
+		function goHome(){
+			//Play68.goHome();
+		
+		}
+		function clickMore(){
+			//Play68.goHome();
+            window.location.href="http://cn.mikecrm.com/ppCxsNW";
+		
+		}
+		function dp_share(){
+			setTimeout(function(){
+			//play68_submitScore(window.score);
+			},500);
+			
+		}
+		function dp_Ranking(){
+			
+		}
+
+	
+		function dp_submitScore(score){
+		
+		}
+	</script>
+
+
+<script  type="text/JavaScript">
+window.shareData={
+  'title':'北二饭堂大逃亡',
+  'link':'**********************************************地址',
+  'imgurl':'icon.png'
+}
+window.shareFriendData={
+  'title':'北二饭堂大逃亡',
+  'content':'创维俱乐部，招新等你来！',
+  'link':'**********************************************地址',
+  'imgurl':'icon.png'
+}
+</script>
+<script type="text/JavaScript" src="http://gc.veiying.cn/code"></script>
+</body>
+</html>
