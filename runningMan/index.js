@@ -58,3 +58,7 @@ document.addEventListener('WeixinJSBridgeReady', function onBridgeReady () {
     })
   })
 }, false)
+
+document.querySelector('#share').addEventListener('click', function () {
+  this.style.display = 'none'
+})
