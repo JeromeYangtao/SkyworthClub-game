@@ -1,17 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f81bd2c5-a522-4688-8432-88a976024cce" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/runningMan/xiaoren.png" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/runningMan/gdyx.png" afterPath="$PROJECT_DIR$/runningMan/gdyx.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/runningMan/share.png" afterPath="$PROJECT_DIR$/runningMan/share.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/runningMan/ygdbns.jpg" afterPath="$PROJECT_DIR$/runningMan/ygdbns.jpg" />
+    <list default="true" id="f81bd2c5-a522-4688-8432-88a976024cce" name="Default" comment="修改音乐和UI">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/runningMan/css/style.css" afterPath="$PROJECT_DIR$/runningMan/css/style.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/runningMan/index.html" afterPath="$PROJECT_DIR$/runningMan/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/runningMan/index.js" afterPath="$PROJECT_DIR$/runningMan/index.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/runningMan/main.js" afterPath="$PROJECT_DIR$/runningMan/main.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/runningMan/require.js" afterPath="$PROJECT_DIR$/runningMan/require.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -45,35 +37,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/runningMan/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="52">
-              <caret line="2" column="80" lean-forward="false" selection-start-line="2" selection-start-column="80" selection-end-line="2" selection-end-column="80" />
+            <state relative-caret-position="132">
+              <caret line="24" column="19" lean-forward="false" selection-start-line="24" selection-start-column="9" selection-end-line="24" selection-end-column="19" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="wu.png" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/runningMan/wu.png">
-          <provider selected="true" editor-type-id="images">
-            <state />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ygdbns.jpg" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/runningMan/ygdbns.jpg">
-          <provider selected="true" editor-type-id="images">
-            <state />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="main.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="main.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/runningMan/main.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="192">
-              <caret line="2161" column="104" lean-forward="false" selection-start-line="2161" selection-start-column="99" selection-end-line="2161" selection-end-column="104" />
+              <caret line="2166" column="32" lean-forward="false" selection-start-line="2166" selection-start-column="32" selection-end-line="2166" selection-end-column="32" />
               <folding />
             </state>
           </provider>
@@ -97,7 +75,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>share</find>
       <find>shareImg</find>
       <find>加入我们</find>
       <find>src</find>
@@ -107,7 +84,6 @@
       <find>//</find>
       <find>weixin</find>
       <find>red</find>
-      <find>mebtnopenurl</find>
       <find>linkScreen</find>
       <find>defaultWidth</find>
       <find>var</find>
@@ -125,8 +101,10 @@
       <find>asyncImage</find>
       <find>mp3</find>
       <find>start</find>
-      <find>difficulty1</find>
       <find>btns1</find>
+      <find>difficulty1</find>
+      <find>hideAd</find>
+      <find>mebtnopenurl</find>
     </findStrings>
     <replaceStrings>
       <replace>let</replace>
@@ -148,9 +126,9 @@
         <option value="$PROJECT_DIR$/bunengsi/main.js" />
         <option value="$PROJECT_DIR$/bunengsi/index.html" />
         <option value="$PROJECT_DIR$/runningMan/css/style.css" />
-        <option value="$PROJECT_DIR$/runningMan/main.js" />
         <option value="$PROJECT_DIR$/runningMan/index.html" />
         <option value="$PROJECT_DIR$/runningMan/index.js" />
+        <option value="$PROJECT_DIR$/runningMan/main.js" />
       </list>
     </option>
   </component>
@@ -208,11 +186,6 @@
             <path>
               <item name="game--SkyworthClub" type="b2602c69:ProjectViewProjectNode" />
               <item name="game--SkyworthClub" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="game--SkyworthClub" type="b2602c69:ProjectViewProjectNode" />
-              <item name="game--SkyworthClub" type="462c0819:PsiDirectoryNode" />
-              <item name="runningMan" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -328,11 +301,18 @@
       <option name="project" value="LOCAL" />
       <updated>1505808837277</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="修改音乐和UI">
+      <created>1505827031387</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1505827031387</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="15389000" />
+    <option name="totallyTimeSpent" value="16164000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="3" y="25" width="1435" height="794" extended-state="0" />
@@ -414,7 +394,8 @@
     <MESSAGE value="调整css" />
     <MESSAGE value="htm,js解耦" />
     <MESSAGE value="删掉结束图片" />
-    <option name="LAST_COMMIT_MESSAGE" value="删掉结束图片" />
+    <MESSAGE value="修改音乐和UI" />
+    <option name="LAST_COMMIT_MESSAGE" value="修改音乐和UI" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -738,14 +719,6 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/runningMan/main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="2161" column="104" lean-forward="false" selection-start-line="2161" selection-start-column="99" selection-end-line="2161" selection-end-column="104" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/runningMan/wu.png">
       <provider selected="true" editor-type-id="images">
         <state />
@@ -754,6 +727,14 @@
     <entry file="file://$PROJECT_DIR$/runningMan/ygdbns.jpg">
       <provider selected="true" editor-type-id="images">
         <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/runningMan/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="24" column="19" lean-forward="false" selection-start-line="24" selection-start-column="9" selection-end-line="24" selection-end-column="19" />
+          <folding />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/runningMan/index.html">
@@ -767,10 +748,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/runningMan/index.js">
+    <entry file="file://$PROJECT_DIR$/runningMan/main.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="52">
-          <caret line="2" column="80" lean-forward="false" selection-start-line="2" selection-start-column="80" selection-end-line="2" selection-end-column="80" />
+        <state relative-caret-position="192">
+          <caret line="2166" column="32" lean-forward="false" selection-start-line="2166" selection-start-column="32" selection-end-line="2166" selection-end-column="32" />
           <folding />
         </state>
       </provider>

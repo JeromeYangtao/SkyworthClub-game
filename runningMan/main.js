@@ -2159,7 +2159,16 @@ let link, jsGame;
         var c = a(l.time)//第二页面的读秒
         e.canvas.fillStyle('#54b698').font('30px Arial').fillText(c, i - e.canvas.measureText(c).width - 20, 50), t = null
       }).menu(function () {//第一页
-        e.canvas.fillStyle('#FFF').fillScreen().drawImage('logo', i - 450 >> 1, u - 90).drawImage('btns1', 0, 99, 480, 7, i - 480 >> 1, u + 140 + 30, 480, 7).drawImage('btns1', 0, 99, 480, 7, i - 480 >> 1, u + 555, 480, 7), e.buttonLayout.released('difficulty1') ? (l.moduleName = '我的成绩', hideAd(), c(2)) : e.buttonLayout.released('difficulty2') ? (l.moduleName = '噩梦模式', c(3)) : e.buttonLayout.released('difficulty3') ? (l.moduleName = '地狱模式', c(4)) : e.buttonLayout.released('difficulty4') ? (l.moduleName = '炼狱模式', c(5)) : e.buttonLayout.released('rank') && difficulty1()
+        e.canvas.fillStyle('#FFF')
+          .fillScreen()
+          .drawImage('logo', i - 450 >> 1, u - 90)
+          .drawImage('btns1', 0, 99, 480, 7, i - 480 >> 1, u + 140 + 30, 480, 7)
+          .drawImage('btns1', 0, 99, 480, 7, i - 480 >> 1, u + 555, 480, 7), e.buttonLayout
+          .released('difficulty1') ? (l.moduleName = '我的成绩', hideAd(), c(2)) : e.buttonLayout
+          .released('difficulty2') ? (l.moduleName = '噩梦模式', c(3)) : e.buttonLayout
+          .released('difficulty3') ? (l.moduleName = '地狱模式', c(4)) : e.buttonLayout
+          .released('difficulty4') ? (l.moduleName = '炼狱模式', c(5)) : e.buttonLayout
+          .released('rank') && dp_Ranking()
       }).zone(function () {//结束页背景色
         e.canvas.fillStyle('#54b698').fillScreen().fillStyle('#FFF').drawString(l.moduleName, 0, u + 50, e.graphics.VCENTER, !1, null, null, '50px 微软雅黑').drawImage('btns1', 0, 106, 480, 7, i - 480 >> 1, u + 150, 480, 7).drawImage('btns1', 0, 106, 480, 7, i - 480 >> 1, u + 510, 480, 7).fillStyle('#000').drawString(a(l.time, '秒'), 0, u + 310, e.graphics.VCENTER, !1, null, null, '60px 微软雅黑').fillStyle('#000').drawString('最佳:' + a(l.bestTime, '秒'), 0, u + 400, e.graphics.VCENTER, !1, null, null, '30px 微软雅黑'), l.time > l.bestTime && e.canvas.fillStyle('#FF0').drawString('新纪录', 0, u + 240, e.graphics.VCENTER, !1, null, null, '50px 微软雅黑'), e.buttonLayout.released('return') ? f() : e.buttonLayout.released('restart') && dp_share2(l.time)
       }).events.mouseDown(function (e, t, n) {
