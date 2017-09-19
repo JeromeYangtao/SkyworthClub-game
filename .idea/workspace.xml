@@ -1,12 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f81bd2c5-a522-4688-8432-88a976024cce" name="Default" comment="删掉结束图片">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/runningMan/460.jpg" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/runningMan/2000.png" afterPath="$PROJECT_DIR$/runningMan/share.png" />
+    <list default="true" id="f81bd2c5-a522-4688-8432-88a976024cce" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/runningMan/xiaoren.png" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/runningMan/gdyx.png" afterPath="$PROJECT_DIR$/runningMan/gdyx.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/runningMan/share.png" afterPath="$PROJECT_DIR$/runningMan/share.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/runningMan/ygdbns.jpg" afterPath="$PROJECT_DIR$/runningMan/ygdbns.jpg" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/runningMan/css/style.css" afterPath="$PROJECT_DIR$/runningMan/css/style.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/runningMan/index.html" afterPath="$PROJECT_DIR$/runningMan/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/runningMan/index.js" afterPath="$PROJECT_DIR$/runningMan/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/runningMan/main.js" afterPath="$PROJECT_DIR$/runningMan/main.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/runningMan/require.js" afterPath="$PROJECT_DIR$/runningMan/require.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -30,7 +35,7 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/runningMan/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="307">
+            <state relative-caret-position="228">
               <caret line="21" column="42" lean-forward="false" selection-start-line="21" selection-start-column="42" selection-end-line="21" selection-end-column="42" />
               <folding>
                 <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -40,40 +45,51 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="share.png" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/runningMan/share.png">
+      <file leaf-file-name="index.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/runningMan/index.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="52">
+              <caret line="2" column="80" lean-forward="false" selection-start-line="2" selection-start-column="80" selection-end-line="2" selection-end-column="80" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="wu.png" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/runningMan/wu.png">
           <provider selected="true" editor-type-id="images">
             <state />
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="require.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/runningMan/require.js">
+      <file leaf-file-name="ygdbns.jpg" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/runningMan/ygdbns.jpg">
+          <provider selected="true" editor-type-id="images">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="main.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/runningMan/main.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="260">
-              <caret line="10" column="20" lean-forward="true" selection-start-line="10" selection-start-column="20" selection-end-line="10" selection-end-column="20" />
+            <state relative-caret-position="192">
+              <caret line="2161" column="104" lean-forward="false" selection-start-line="2161" selection-start-column="99" selection-end-line="2161" selection-end-column="104" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/runningMan/css/style.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="130">
-              <caret line="5" column="0" lean-forward="true" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
-              <folding />
-            </state>
+      <file leaf-file-name="gdyx.png" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/runningMan/gdyx.png">
+          <provider selected="true" editor-type-id="images">
+            <state />
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/runningMan/index.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="437">
-              <caret line="62" column="29" lean-forward="false" selection-start-line="62" selection-start-column="29" selection-end-line="62" selection-end-column="29" />
-              <folding />
-            </state>
+      <file leaf-file-name="dog.png" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/runningMan/dog.png">
+          <provider selected="true" editor-type-id="images">
+            <state />
           </provider>
         </entry>
       </file>
@@ -81,12 +97,9 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>dp_share</find>
-      <find>2000</find>
       <find>share</find>
       <find>shareImg</find>
       <find>加入我们</find>
-      <find>btns1</find>
       <find>src</find>
       <find>i</find>
       <find>click</find>
@@ -106,6 +119,14 @@
       <find>logo</find>
       <find>aler</find>
       <find>http</find>
+      <find>xiaoren</find>
+      <find>dog</find>
+      <find>asyncImage</find>
+      <find>asyncImage</find>
+      <find>mp3</find>
+      <find>start</find>
+      <find>difficulty1</find>
+      <find>btns1</find>
     </findStrings>
     <replaceStrings>
       <replace>let</replace>
@@ -127,6 +148,7 @@
         <option value="$PROJECT_DIR$/bunengsi/main.js" />
         <option value="$PROJECT_DIR$/bunengsi/index.html" />
         <option value="$PROJECT_DIR$/runningMan/css/style.css" />
+        <option value="$PROJECT_DIR$/runningMan/main.js" />
         <option value="$PROJECT_DIR$/runningMan/index.html" />
         <option value="$PROJECT_DIR$/runningMan/index.js" />
       </list>
@@ -214,6 +236,11 @@
     <property name="add_unversioned_files" value="true" />
     <property name="SearchEverywhereHistoryKey" value="2000&#9;FILE&#9;file:///Users/skyworthclub/Desktop/game--SkyworthClub/bunengsi/2000.png" />
   </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/runningMan/sound" />
+    </key>
+  </component>
   <component name="RunDashboard">
     <option name="ruleStates">
       <list>
@@ -294,11 +321,18 @@
       <option name="project" value="LOCAL" />
       <updated>1505806310350</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="删掉结束图片">
+      <created>1505808837277</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1505808837277</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11473000" />
+    <option name="totallyTimeSpent" value="15389000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="3" y="25" width="1435" height="794" extended-state="0" />
@@ -387,36 +421,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/christmas--game/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="260">
-          <caret line="10" column="18" lean-forward="false" selection-start-line="10" selection-start-column="18" selection-end-line="10" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="962">
-          <caret line="37" column="0" lean-forward="true" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/christmas--game/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1196">
-          <caret line="46" column="0" lean-forward="true" selection-start-line="46" selection-start-column="0" selection-end-line="46" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/christmas--game/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="260">
@@ -601,6 +605,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="260">
           <caret line="10" column="18" lean-forward="false" selection-start-line="10" selection-start-column="18" selection-end-line="10" selection-end-column="18" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -615,6 +620,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -629,6 +635,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="260">
           <caret line="10" column="18" lean-forward="false" selection-start-line="10" selection-start-column="18" selection-end-line="10" selection-end-column="18" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -667,48 +674,12 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/runningMan/gdyx.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/runningMan/ygdbns.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/runningMan/require.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="260">
-          <caret line="10" column="20" lean-forward="true" selection-start-line="10" selection-start-column="20" selection-end-line="10" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/runningMan/main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4867">
-          <caret line="622" column="30" lean-forward="true" selection-start-line="622" selection-start-column="30" selection-end-line="622" selection-end-column="30" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/bedtw/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="553">
           <caret line="100" column="57" lean-forward="false" selection-start-line="100" selection-start-column="28" selection-end-line="100" selection-end-column="57" />
           <folding />
         </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/runningMan/xiaoren.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/runningMan/wu.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/runningMan/css/style.css">
@@ -724,14 +695,70 @@
         <state />
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/runningMan/require.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="62" column="51" lean-forward="false" selection-start-line="62" selection-start-column="51" selection-end-line="62" selection-end-column="51" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/runningMan/dog.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/runningMan/bg.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/runningMan/gdyx.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/runningMan/ground.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/runningMan/pie.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/runningMan/share.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/runningMan/xiaoren.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/runningMan/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="2161" column="104" lean-forward="false" selection-start-line="2161" selection-start-column="99" selection-end-line="2161" selection-end-column="104" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/runningMan/wu.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/runningMan/ygdbns.jpg">
       <provider selected="true" editor-type-id="images">
         <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/runningMan/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="307">
+        <state relative-caret-position="228">
           <caret line="21" column="42" lean-forward="false" selection-start-line="21" selection-start-column="42" selection-end-line="21" selection-end-column="42" />
           <folding>
             <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -742,8 +769,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/runningMan/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="437">
-          <caret line="62" column="29" lean-forward="false" selection-start-line="62" selection-start-column="29" selection-end-line="62" selection-end-column="29" />
+        <state relative-caret-position="52">
+          <caret line="2" column="80" lean-forward="false" selection-start-line="2" selection-start-column="80" selection-end-line="2" selection-end-column="80" />
           <folding />
         </state>
       </provider>

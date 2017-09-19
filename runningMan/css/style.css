@@ -27,3 +27,11 @@ body {
     width: 1366px;
     height: 621px;
 }
+#footer {
+  		position: absolute;
+  		top: 92%;
+  		width: 100%;
+  		color: #fff;
+  		opacity: 0.9;
+  		text-align: center;
+  		font-size: 1.2em; }

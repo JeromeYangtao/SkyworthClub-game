@@ -349,7 +349,9 @@ let link, jsGame;
         n.event.pageOffX = i.getOffsetX(e), n.event.pageOffY = i.getOffsetY(e), n.event.touchCancel != null && n.event.touchCancel(e, n.event.pageOffX, n.event.pageOffY)
       },
       click: function (e) {
+        console.log('click')
         n.event.clickCallBack != null && n.event.clickCallBack(e, i.getOffsetX(e), i.getOffsetY(e))
+
       },
       mouseDown: function (e) {
         var t = i.getOffsetX(e),
@@ -1492,6 +1494,7 @@ let link, jsGame;
         return n.event.orientationChange = e, this
       },
       touchStart: function (e) {
+        console.log('touch')
         return n.event.touchStart = e, this
       },
       touchEnd: function (e) {
@@ -1504,6 +1507,7 @@ let link, jsGame;
         return n.event.touchCancel = e, this
       },
       click: function (e) {
+        console.log('click2')
         return n.event.clickCallBack = e, this
       },
       mouseDown: function (e) {
@@ -2020,14 +2024,14 @@ let link, jsGame;
 }), define('host', ['lib/link'], function (e) {
   e.asyncImage([{
     id: 'host',
-    src: 'xiaoren.png'
+    src: 'dog.png'
   }])
   var t = ['host'],
     n = [
       [
-        [0, 0, 26, 37],
-        [27, 0, 19, 36],
-        [46, 0, 22, 38]
+        [0, 0, 43, 38],
+        [45, 0, 50, 38],
+        [97, 0, 43, 38]
       ]
     ],
     r = [{
@@ -2133,6 +2137,10 @@ let link, jsGame;
       }
       e.run(function () {
         var t = Date.now()
+//     	e.asyncImage([{//插入背景图片
+//				id: "bgImg",
+//				src: "bg.png"
+//				}]);
         e.canvas.fillStyle('#FFF').fillScreen()
         var n = ~~(o / l.scenes.length)
         if (!l.died) {
@@ -2148,12 +2156,12 @@ let link, jsGame;
           for (var s = 0, f; f = l.scenes[s]; s++) f.host.action(), f.render();
           l.shine && (l.shine.action().render(), l.shine.getSprite().endFrame() && (l.shine = null)), t - l.dieDate >= l.dieTimeout && (l.dieDate = null, h())
         }
-        var c = a(l.time)
-        e.canvas.fillStyle('#000').font('30px Arial').fillText(c, i - e.canvas.measureText(c).width - 20, 50), t = null
-      }).menu(function () {
-        e.canvas.fillStyle('#FFF').fillScreen().drawImage('logo', i - 480 >> 1, u).drawImage('btns1', 0, 99, 480, 7, i - 480 >> 1, u + 140, 480, 7).drawImage('btns1', 0, 99, 480, 7, i - 480 >> 1, u + 555, 480, 7), e.buttonLayout.released('difficulty1') ? (l.moduleName = '我的成绩', hideAd(), c(2)) : e.buttonLayout.released('difficulty2') ? (l.moduleName = '噩梦模式', c(3)) : e.buttonLayout.released('difficulty3') ? (l.moduleName = '地狱模式', c(4)) : e.buttonLayout.released('difficulty4') ? (l.moduleName = '炼狱模式', c(5)) : e.buttonLayout.released('rank') && dp_Ranking()
-      }).zone(function () {
-        e.canvas.fillStyle('#ddd').fillScreen().fillStyle('#FFF').drawString(l.moduleName, 0, u + 110, e.graphics.VCENTER, !1, null, null, '50px 微软雅黑').drawImage('btns1', 0, 106, 480, 7, i - 480 >> 1, u + 140, 480, 7).drawImage('btns1', 0, 106, 480, 7, i - 480 >> 1, u + 555, 480, 7).fillStyle('#000').drawString(a(l.time, '秒'), 0, u + 340, e.graphics.VCENTER, !1, null, null, '60px 微软雅黑').fillStyle('#000').drawString('最佳:' + a(l.bestTime, '秒'), 0, u + 400, e.graphics.VCENTER, !1, null, null, '30px 微软雅黑'), l.time > l.bestTime && e.canvas.fillStyle('#FF0').drawString('新纪录', 0, u + 240, e.graphics.VCENTER, !1, null, null, '50px 微软雅黑'), e.buttonLayout.released('return') ? f() : e.buttonLayout.released('restart') && dp_share2(l.time)
+        var c = a(l.time)//第二页面的读秒
+        e.canvas.fillStyle('#54b698').font('30px Arial').fillText(c, i - e.canvas.measureText(c).width - 20, 50), t = null
+      }).menu(function () {//第一页
+        e.canvas.fillStyle('#FFF').fillScreen().drawImage('logo', i - 450 >> 1, u - 90).drawImage('btns1', 0, 99, 480, 7, i - 480 >> 1, u + 140 + 30, 480, 7).drawImage('btns1', 0, 99, 480, 7, i - 480 >> 1, u + 555, 480, 7), e.buttonLayout.released('difficulty1') ? (l.moduleName = '我的成绩', hideAd(), c(2)) : e.buttonLayout.released('difficulty2') ? (l.moduleName = '噩梦模式', c(3)) : e.buttonLayout.released('difficulty3') ? (l.moduleName = '地狱模式', c(4)) : e.buttonLayout.released('difficulty4') ? (l.moduleName = '炼狱模式', c(5)) : e.buttonLayout.released('rank') && difficulty1()
+      }).zone(function () {//结束页背景色
+        e.canvas.fillStyle('#54b698').fillScreen().fillStyle('#FFF').drawString(l.moduleName, 0, u + 50, e.graphics.VCENTER, !1, null, null, '50px 微软雅黑').drawImage('btns1', 0, 106, 480, 7, i - 480 >> 1, u + 150, 480, 7).drawImage('btns1', 0, 106, 480, 7, i - 480 >> 1, u + 510, 480, 7).fillStyle('#000').drawString(a(l.time, '秒'), 0, u + 310, e.graphics.VCENTER, !1, null, null, '60px 微软雅黑').fillStyle('#000').drawString('最佳:' + a(l.bestTime, '秒'), 0, u + 400, e.graphics.VCENTER, !1, null, null, '30px 微软雅黑'), l.time > l.bestTime && e.canvas.fillStyle('#FF0').drawString('新纪录', 0, u + 240, e.graphics.VCENTER, !1, null, null, '50px 微软雅黑'), e.buttonLayout.released('return') ? f() : e.buttonLayout.released('restart') && dp_share2(l.time)
       }).events.mouseDown(function (e, t, n) {
         if (l.died) return !1
         for (var r = 0, i; i = l.scenes[r]; r++) i.touchStart(t, n)
@@ -2167,7 +2175,7 @@ let link, jsGame;
           id: 'difficulty1',
           value: '开始游戏',
           x: i - 272 >> 1,
-          y: u + 200,
+          y: u + 220 + 40,
           width: 272,
           height: 80,
           font: '36px 微软雅黑',
@@ -2180,12 +2188,12 @@ let link, jsGame;
           hColor: '#FFF',
           dex: 272,
           dey: 0,
-          deColor: '#000'
+          deColor: '#FFF'
         }).create({
           id: 'rank',
           value: '加入我们',
           x: i - 272 >> 1,
-          y: u + 160 + 150,
+          y: u + 160 + 150 + 80,
           width: 272,
           height: 80,
           font: '36px 微软雅黑',
@@ -2198,7 +2206,7 @@ let link, jsGame;
           hColor: '#FFF',
           dex: 272,
           dey: 0,
-          deColor: '#000'
+          deColor: '#FFF'
         }).base().gameFlow.menu()
       }
       f()
@@ -2216,8 +2224,8 @@ let link, jsGame;
           Scene: e.extend(function (t) {
             this.id = t, this.x = 0, this.baseY = 0, this.width = 0, this.height = 0, this.host = n.get().setStep(2), this.hostDied = !1, this.boxes = [], this.displayDate = Date.now(), this.displayTimeout = e.comm.getRandom(1e3, 2e3)
           }, null, {
-            render: function () {
-              e.canvas.fillStyle('#000').fillRect(this.x, this.baseY - 5, this.width, 5)
+            render: function () {//线的颜色
+              e.canvas.fillStyle('#54b698').fillRect(this.x, this.baseY - 5, this.width, 5)
               for (var t = this.boxes.length - 1, n; n = this.boxes[t]; t--) e.canvas.fillRect(n.x, n.y, n.width, n.height);
               return this.host.render(), this
             },
@@ -2336,7 +2344,7 @@ let link, jsGame;
     src: 'gdyx.png'
   }], function (e, t, n) {}).initAudio([{
     id: '1',
-    src: 'sound/1.mp3',
+    src: 'sound/music.wav',
     preload: !0
   }]).loadingCallBack(function (e, t) {}).main(function () {
     t.init()
