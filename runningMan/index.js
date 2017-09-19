@@ -61,4 +61,5 @@ document.addEventListener('WeixinJSBridgeReady', function onBridgeReady () {
 
 document.querySelector('#share').addEventListener('click', function () {
   this.style.display = 'none'
+  console.log(this)
 })

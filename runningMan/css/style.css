@@ -22,3 +22,8 @@ body {
     transform: translateY(-50%);
     width: 100vw;
 }
+
+#linkScreen {
+    width: 1366px;
+    height: 621px;
+}
