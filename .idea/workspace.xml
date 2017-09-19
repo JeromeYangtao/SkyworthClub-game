@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f81bd2c5-a522-4688-8432-88a976024cce" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/runningMan/index.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/runningMan/index.html" afterPath="$PROJECT_DIR$/runningMan/index.html" />
     </list>
@@ -24,16 +25,26 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/runningMan/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="93">
-              <caret line="5" column="25" lean-forward="false" selection-start-line="5" selection-start-column="25" selection-end-line="5" selection-end-column="25" />
+            <state relative-caret-position="684">
+              <caret line="39" column="12" lean-forward="false" selection-start-line="39" selection-start-column="12" selection-end-line="39" selection-end-column="12" />
               <folding>
                 <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#canvas#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/runningMan/index.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="567">
+              <caret line="59" column="9" lean-forward="false" selection-start-line="59" selection-start-column="9" selection-end-line="59" selection-end-column="9" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -62,11 +73,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="main.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="main.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/runningMan/main.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="219">
-              <caret line="611" column="45" lean-forward="false" selection-start-line="611" selection-start-column="41" selection-end-line="611" selection-end-column="45" />
+            <state relative-caret-position="505">
+              <caret line="622" column="30" lean-forward="true" selection-start-line="622" selection-start-column="30" selection-end-line="622" selection-end-column="30" />
               <folding />
             </state>
           </provider>
@@ -121,6 +132,7 @@
         <option value="$PROJECT_DIR$/bedtw/index.html" />
         <option value="$PROJECT_DIR$/bunengsi/main.js" />
         <option value="$PROJECT_DIR$/bunengsi/index.html" />
+        <option value="$PROJECT_DIR$/runningMan/index.js" />
         <option value="$PROJECT_DIR$/runningMan/index.html" />
       </list>
     </option>
@@ -236,7 +248,7 @@
       <workItem from="1505651038586" duration="57000" />
       <workItem from="1505651108840" duration="7320000" />
       <workItem from="1505802948924" duration="25000" />
-      <workItem from="1505803022522" duration="2064000" />
+      <workItem from="1505803022522" duration="2327000" />
     </task>
     <task id="LOCAL-00001" summary="编辑器生产文件">
       <created>1505652044070</created>
@@ -259,11 +271,18 @@
       <option name="project" value="LOCAL" />
       <updated>1505804762315</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="调整分享信息">
+      <created>1505805687179</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1505805687179</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9772000" />
+    <option name="totallyTimeSpent" value="10035000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="3" y="25" width="1435" height="794" extended-state="0" />
@@ -326,7 +345,8 @@
     <MESSAGE value="编辑器生产文件" />
     <MESSAGE value="添加runningMan游戏" />
     <MESSAGE value="调整分享到朋友圈的透明度" />
-    <option name="LAST_COMMIT_MESSAGE" value="调整分享到朋友圈的透明度" />
+    <MESSAGE value="调整分享信息" />
+    <option name="LAST_COMMIT_MESSAGE" value="调整分享信息" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -510,23 +530,31 @@
         <state />
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/runningMan/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="505">
+          <caret line="622" column="30" lean-forward="true" selection-start-line="622" selection-start-column="30" selection-end-line="622" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/runningMan/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="567">
+          <caret line="59" column="9" lean-forward="false" selection-start-line="59" selection-start-column="9" selection-end-line="59" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/runningMan/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="93">
-          <caret line="5" column="25" lean-forward="false" selection-start-line="5" selection-start-column="25" selection-end-line="5" selection-end-column="25" />
+        <state relative-caret-position="684">
+          <caret line="39" column="12" lean-forward="false" selection-start-line="39" selection-start-column="12" selection-end-line="39" selection-end-column="12" />
           <folding>
             <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#canvas#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/runningMan/main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="219">
-          <caret line="611" column="45" lean-forward="false" selection-start-line="611" selection-start-column="41" selection-end-line="611" selection-end-column="45" />
-          <folding />
         </state>
       </provider>
     </entry>
