@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="f81bd2c5-a522-4688-8432-88a976024cce" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bedtw/index.html" afterPath="$PROJECT_DIR$/bedtw/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/runningMan/index.html" afterPath="$PROJECT_DIR$/runningMan/index.html" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -27,8 +27,8 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/runningMan/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="336">
-              <caret line="34" column="18" lean-forward="false" selection-start-line="34" selection-start-column="18" selection-end-line="34" selection-end-column="18" />
+            <state relative-caret-position="56">
+              <caret line="33" column="31" lean-forward="true" selection-start-line="33" selection-start-column="31" selection-end-line="33" selection-end-column="31" />
               <folding>
                 <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#canvas#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -92,6 +92,8 @@
       <find>bgcolor</find>
       <find>bgColor</find>
       <find>F00</find>
+      <find>logo</find>
+      <find>aler</find>
     </findStrings>
     <replaceStrings>
       <replace>let</replace>
@@ -112,6 +114,7 @@
         <option value="$PROJECT_DIR$/bedtw/index.html" />
         <option value="$PROJECT_DIR$/bunengsi/main.js" />
         <option value="$PROJECT_DIR$/bunengsi/index.html" />
+        <option value="$PROJECT_DIR$/runningMan/index.html" />
       </list>
     </option>
   </component>
@@ -170,6 +173,11 @@
               <item name="game--SkyworthClub" type="b2602c69:ProjectViewProjectNode" />
               <item name="game--SkyworthClub" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="game--SkyworthClub" type="b2602c69:ProjectViewProjectNode" />
+              <item name="game--SkyworthClub" type="462c0819:PsiDirectoryNode" />
+              <item name="runningMan" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -221,7 +229,7 @@
       <workItem from="1505651038586" duration="57000" />
       <workItem from="1505651108840" duration="7320000" />
       <workItem from="1505802948924" duration="25000" />
-      <workItem from="1505803022522" duration="715000" />
+      <workItem from="1505803022522" duration="1346000" />
     </task>
     <task id="LOCAL-00001" summary="编辑器生产文件">
       <created>1505652044070</created>
@@ -230,14 +238,22 @@
       <option name="project" value="LOCAL" />
       <updated>1505652044071</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="添加runningMan游戏">
+      <created>1505804190190</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1505804190190</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8423000" />
+    <option name="totallyTimeSpent" value="9054000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="3" y="25" width="1435" height="794" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Debug Logs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -246,7 +262,7 @@
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Execute Anonymous" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17963225" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17963225" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -294,7 +310,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="编辑器生产文件" />
-    <option name="LAST_COMMIT_MESSAGE" value="编辑器生产文件" />
+    <MESSAGE value="添加runningMan游戏" />
+    <option name="LAST_COMMIT_MESSAGE" value="添加runningMan游戏" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -488,8 +505,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/runningMan/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="34" column="18" lean-forward="false" selection-start-line="34" selection-start-column="18" selection-end-line="34" selection-end-column="18" />
+        <state relative-caret-position="56">
+          <caret line="33" column="31" lean-forward="true" selection-start-line="33" selection-start-column="31" selection-end-line="33" selection-end-column="31" />
           <folding>
             <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#canvas#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />

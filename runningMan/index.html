@@ -14,8 +14,8 @@
     <title>一个都不能死</title>
     <style type="text/css">
         body {
-            margin: 0px;
-            padding: 0px;
+            margin: 0;
+            padding: 0;
             overflow: hidden;
         }
 
@@ -27,12 +27,15 @@
             left: 0;
             display: none;
             z-index: 99;
+            opacity: 0.6;
         }
 
         #logo {
             position: absolute;
             left: 0;
-            top: 0;
+            top: 50%;
+            transform: translateY(-50%);
+            width: 100vw;
         }
     </style>
     <!--<script type="text/javascript" src="http://games.haoshengweb.com/" charset="UTF-8"></script>-->
@@ -52,7 +55,6 @@
         document.title = t / 1000 + '秒！不行了，我都快变双重人格了！这游戏实在太虐心了！'
         document.querySelector('#share').style.display = ''
         window.shareData.tTitle = document.title
-        alert('返回')
       }
 
       function dp_share2 (t) {
