@@ -2,7 +2,7 @@ let mebtnopenurl = 'http://cn.mikecrm.com/ppCxsNW'
 window.shareData = {
   'imgUrl': 'https://jeromeyangtao.github.io/SkyworthClub-game/runningMan/ygdbns.jpg',
   'timeLineLink': 'https://jeromeyangtao.github.io/SkyworthClub-game/runningMan/',
-  'tTitle': '火柴人跑酷',
+  'tTitle': '奔跑吧doge',
   'tContent': '玩起来怎么都停不下来的啊！'
 }
 
