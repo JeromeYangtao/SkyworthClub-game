@@ -24,17 +24,24 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/runningMan/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="56">
-              <caret line="33" column="31" lean-forward="true" selection-start-line="33" selection-start-column="31" selection-end-line="33" selection-end-column="31" />
+            <state relative-caret-position="93">
+              <caret line="5" column="25" lean-forward="false" selection-start-line="5" selection-start-column="25" selection-end-line="5" selection-end-column="25" />
               <folding>
                 <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#canvas#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
             </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="460.jpg" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/runningMan/460.jpg">
+          <provider selected="true" editor-type-id="images">
+            <state />
           </provider>
         </entry>
       </file>
@@ -55,11 +62,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="main.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="main.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/runningMan/main.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="219">
-              <caret line="2155" column="41" lean-forward="true" selection-start-line="2155" selection-start-column="41" selection-end-line="2155" selection-end-column="41" />
+              <caret line="611" column="45" lean-forward="false" selection-start-line="611" selection-start-column="41" selection-end-line="611" selection-end-column="45" />
               <folding />
             </state>
           </provider>
@@ -79,7 +86,6 @@
       <find>i</find>
       <find>click</find>
       <find>url</find>
-      <find>http</find>
       <find>//</find>
       <find>weixin</find>
       <find>red</find>
@@ -94,6 +100,7 @@
       <find>F00</find>
       <find>logo</find>
       <find>aler</find>
+      <find>http</find>
     </findStrings>
     <replaceStrings>
       <replace>let</replace>
@@ -229,7 +236,7 @@
       <workItem from="1505651038586" duration="57000" />
       <workItem from="1505651108840" duration="7320000" />
       <workItem from="1505802948924" duration="25000" />
-      <workItem from="1505803022522" duration="1346000" />
+      <workItem from="1505803022522" duration="2064000" />
     </task>
     <task id="LOCAL-00001" summary="编辑器生产文件">
       <created>1505652044070</created>
@@ -245,11 +252,18 @@
       <option name="project" value="LOCAL" />
       <updated>1505804190190</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="调整分享到朋友圈的透明度">
+      <created>1505804762315</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1505804762315</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9054000" />
+    <option name="totallyTimeSpent" value="9772000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="3" y="25" width="1435" height="794" extended-state="0" />
@@ -311,7 +325,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="编辑器生产文件" />
     <MESSAGE value="添加runningMan游戏" />
-    <option name="LAST_COMMIT_MESSAGE" value="添加runningMan游戏" />
+    <MESSAGE value="调整分享到朋友圈的透明度" />
+    <option name="LAST_COMMIT_MESSAGE" value="调整分享到朋友圈的透明度" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -485,33 +500,33 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/runningMan/460.jpg">
+    <entry file="file://$PROJECT_DIR$/runningMan/2000.png">
       <provider selected="true" editor-type-id="images">
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/runningMan/main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="219">
-          <caret line="2155" column="41" lean-forward="true" selection-start-line="2155" selection-start-column="41" selection-end-line="2155" selection-end-column="41" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/runningMan/2000.png">
+    <entry file="file://$PROJECT_DIR$/runningMan/460.jpg">
       <provider selected="true" editor-type-id="images">
         <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/runningMan/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="56">
-          <caret line="33" column="31" lean-forward="true" selection-start-line="33" selection-start-column="31" selection-end-line="33" selection-end-column="31" />
+        <state relative-caret-position="93">
+          <caret line="5" column="25" lean-forward="false" selection-start-line="5" selection-start-column="25" selection-end-line="5" selection-end-column="25" />
           <folding>
             <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#canvas#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/runningMan/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="219">
+          <caret line="611" column="45" lean-forward="false" selection-start-line="611" selection-start-column="41" selection-end-line="611" selection-end-column="45" />
+          <folding />
         </state>
       </provider>
     </entry>

@@ -38,27 +38,26 @@
             width: 100vw;
         }
     </style>
-    <!--<script type="text/javascript" src="http://games.haoshengweb.com/" charset="UTF-8"></script>-->
     <script language="javascript">
-      //      var mebtnopenurl = 'http://mp.weixin.qq.com/s?__biz=MzA4ODMzMzI3MA==&tempkey=sKjD%2BgVpHLffawvNRu6yepk8t95JDSw57orNMeiB20jn4yWO21IUgdF3xi50qdV9DCIqROvXSLcphFQfMq0Jpe8FKlnU95P7oZuGaVXRJwJqoo99yV5mT%2F9ghY3IC0EYd710JmGZqkRvs2VmsmIvtA%3D%3D&#rd'
       let mebtnopenurl = 'http://cn.mikecrm.com/ppCxsNW'
       window.shareData = {
-        'imgUrl': 'http://games.haoshengweb.com/bunengsi/460.jpg',
-        'timeLineLink': 'http://games.haoshengweb.com/bunengsi/',
-        'tTitle': '一个都不能死',
+        'imgUrl': 'https://jeromeyangtao.github.io/SkyworthClub-game/runningMan/460.jpg',
+        'timeLineLink': 'https://jeromeyangtao.github.io/SkyworthClub-game/runningMan/',
+        'tTitle': '火柴人跑酷',
         'tContent': '玩起来怎么都停不下来的啊！'
       }
 
       function dp_submitScore (m, t) {}
 
       function dp_share (t) {
-        document.title = t / 1000 + '秒！不行了，我都快变双重人格了！这游戏实在太虐心了！'
+        document.title = t / 1000 + '秒！快扶我起来，我还能继续玩！'
         document.querySelector('#share').style.display = ''
         window.shareData.tTitle = document.title
+        console.log('返回')
       }
 
       function dp_share2 (t) {
-        document.title = t / 1000 + '秒！不行了，我都快变双重人格了！这游戏实在太虐心了！'
+        document.title = t / 1000 + '秒！快扶我起来，我还能继续玩！'
         document.querySelector('#share').style.display = ''
         document.querySelector('.shareImg').style.display = 'block'
         window.shareData.tTitle = document.title
@@ -68,8 +67,6 @@
       //      加入我们
       function dp_Ranking () {
         window.location = mebtnopenurl
-//        console.log('click')
-//        window.location = 'http://cn.mikecrm.com/ppCxsNW'
       }
 
       function showAd () {}
